@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "welcome": "Bienvenidos a la apliación de autenticación de React",
+    "register": "Regístrate",
+    "login": "Inciar sesión",
+    "backhome": "Regresar al Inicio",
+    "signup": "Registrar",
+    "back": "Regresar",
+    "logout": "salir"
+  },
+  "data": {
+    "name": "Nombre",
+    "lastname": "Apellido",
+    "email": "Correo electrónico",
+    "password": "Clave",
+    "phone": "Teléfono",
+    "country": "País",
+    "confirm": "Confirmar clave",
+    "conditions": "Acepto terminos y condiciones"
+  },
+  "messages": {
+    "noaccount": "Aun no tienes cuenta?",
+    "newuser": "Registrate para ser un nuevo usuario",
+    "haveaccount": "Aún no tienes cuenta?",
+    "welcome": "Bienvenido a la página principal",
+    "registersuccess": "Registro exitoso"
+  },
+  "validations": {
+    "required": "Este campo es obligatorio",
+    "emailpatter": "Formato incorrecto de correo",
+    "sixminlenght": "Mínimo 6 caracteres",
+    "thirtynminlenght": "Mínimo 30 caracteres",
+    "tenminlenght": "Máximo 10 characters",
+    "passnomatch": "Las claves no coinciden"
+  },
+  "terms": "Terminos y condiciones"
+}

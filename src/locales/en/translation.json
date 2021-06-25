@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "welcome": "Welcome to the React Auth App",
+    "register": "Register",
+    "login": "Log In",
+    "backhome": "Return Home",
+    "signup": "Sign Up",
+    "back": "Back",
+    "logout": "logout"
+  },
+  "data": {
+    "name": "Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "country": "Country",
+    "confirm": "Confirm password",
+    "conditions": "Acept terms and conditions"
+  },
+  "messages": {
+    "noaccount": "Don't have an account?",
+    "newuser": "Register to become a new user",
+    "haveaccount": "Already have an account?",
+    "welcome": "Welcome to the main page",
+    "registersuccess": "Registration successful"
+  },
+  "validations": {
+    "required": "This field is required",
+    "emailpattern": "Format incorrect for mail",
+    "sixminlenght": "Min 6 characters",
+    "thirtynminlenght": "Min 30 characters",
+    "tenminlenght": "Max 10 characters",
+    "passnomatch": "The passwords do not match"
+  },
+  "terms": "Terms and Conditions"
+}

@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  pointer-events: none;
+  height: 10%;
+  width: 10%;
+  padding: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: gainsboro;
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    justify-content: space-evenly;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.buttons {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  transition: all 0.5s;
+  color: white;
+  padding: 0.7rem;
+}
+
+.buttons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttons span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttons:hover span {
+  padding-right: 25px;
+}
+
+.buttons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.home {
+  text-align: left;
+  width: 50%;
+}

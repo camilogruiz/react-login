@@ -1,0 +1,27 @@
+.pos-rel {
+  position: relative;
+}
+
+.search-container {
+  position: absolute;
+  background-color: white;
+  top: 30px;
+  width: 100%;
+  display: block;
+}
+
+.option {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 2fr 1fr;
+  padding: 5px;
+}
+
+.option .label {
+  justify-self: start;
+}
+
+.flag {
+  height: 15px;
+  width: 15px;
+}
