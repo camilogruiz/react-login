@@ -1,5 +1,5 @@
-import { alert } from '../alertReducer';
-import { alertConstants } from '../../utils/alertConst';
+import { alert } from '../alertReducer'
+import { alertConstants } from '../../utils/alertConst'
 
 describe('Alert Reducer', () => {
   test('returns the initial state when an action type is not passed', () => {
@@ -7,7 +7,7 @@ describe('Alert Reducer', () => {
     expect(reducer).toEqual({})
   })
 
-  test("handles SUCCESS as expected", () => {
+  test('handles SUCCESS as expected', () => {
     const reducer = alert(undefined, {
       type: alertConstants.SUCCESS,
       message: 'Successful'

@@ -1,17 +1,17 @@
-import React from 'react';
-import { Provider } from 'react-redux';
-import store from "../../../store";
+import React from 'react'
+import { Provider } from 'react-redux'
+import store from '../../../store'
 import { MemoryRouter } from 'react-router-dom'
 import Terms from '../Terms'
 
-import { render, screen, cleanup, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, cleanup } from '@testing-library/react'
 
-jest.mock("react-i18next", () => ({
-  useTranslation: () => ({ t: (key) => key }),
-}));
+jest.mock('react-i18next', () => ({
+  useTranslation: () => ({ t: (key) => key })
+}))
 
 describe('Terms Render Page', () => {
-  afterEach(cleanup);
+  afterEach(cleanup)
   beforeEach(async () => {
     render(
       <Provider store={store}>
@@ -20,11 +20,11 @@ describe('Terms Render Page', () => {
         </MemoryRouter>
       </Provider>
     )
-  });
+  })
 
   test('should display text', async () => {
     expect(
       screen.getByText(/terms/i)
     ).toBeInTheDocument()
-  });
+  })
 })
