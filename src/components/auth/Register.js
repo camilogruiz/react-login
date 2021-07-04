@@ -222,7 +222,7 @@ function Register () {
             <div>
               <button
                 className='buttons'
-                disabled={!isDirty || !isValid}
+                disabled={!isValid}
                 type='submit'
               >
                 <span>{t('layout.signup')}</span>

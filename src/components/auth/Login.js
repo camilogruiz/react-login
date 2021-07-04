@@ -77,7 +77,11 @@ function Login () {
             {/* Submit button */}
             <div>
               <div>
-                <button className='buttons' disabled={!isDirty || !isValid} type='submit'>
+                <button
+                  className='buttons'
+                  disabled={!isValid}
+                  type='submit'
+                >
                   <span>{t('layout.login')}</span>
                 </button>
               </div>
